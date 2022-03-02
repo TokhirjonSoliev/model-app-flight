@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="model-app-flights:jar2">
+    <output-path>$USER_HOME$/exadel/app-booking-flights/libs</output-path>
+    <root id="archive" name="model-app-flights.jar">
+      <element id="module-output" name="model-app-flights" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" />
+      <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.22" />
+    </root>
+  </artifact>
+</component>

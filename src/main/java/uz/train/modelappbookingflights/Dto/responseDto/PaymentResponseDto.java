@@ -1,22 +1,18 @@
-package uz.train.modelappbookingflights.Dto.createDto;
-
+package uz.train.modelappbookingflights.Dto.responseDto;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotNull;
+import java.time.LocalDate;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class PaymentCreateDto {
-    @NotNull
+public class PaymentResponseDto {
     private String name;
-    @NotNull
     private String cardNumber;
-    @NotNull
     private String expiryDate;
-
+    private LocalDate issuedDate;
 }
